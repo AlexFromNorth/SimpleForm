@@ -1,0 +1,27 @@
+/* basic styles */
+*,
+body,
+html {
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: 0;
+  color: white;
+}
+input,
+button {
+  width: 100%;
+  padding: 15px 20px;
+  border-radius: 50px;
+}
+span,
+h3,
+h2,
+p {
+  cursor: default;
+}
+// defult classes
+.flex {
+  display: flex;
+  justify-content: space-between;
+}

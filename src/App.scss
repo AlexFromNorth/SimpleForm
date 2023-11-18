@@ -1,0 +1,36 @@
+/* all styles */
+
+/* wrapper */
+.wrapper {
+  background-image: url(./assets/bg.min.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 20vh;
+}
+
+/* form */
+.formWrapper {
+  border: 2px solid rgba(251, 251, 251, 0.142);
+  width: 40%;
+  margin: 0 auto;
+  padding: 4% 3%;
+  backdrop-filter: blur(15px);
+  border-radius: 13px;
+
+  h2{
+    margin-bottom: 50px;
+  }
+
+  input {
+    border: 2px solid rgba(251, 251, 251, 0.142);
+    background-color: inherit;
+    color: white;
+    margin-bottom: 35px;
+  }
+  button {
+    color: black;
+    margin: 20px 0 25px;
+  }
+}
