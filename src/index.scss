@@ -7,19 +7,38 @@ html {
   text-decoration: none;
   border: 0;
   color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 input,
 button {
   width: 100%;
-  padding: 15px 20px;
+  padding: 20px 25px;
   border-radius: 50px;
 }
+button{
+  cursor: pointer;
+}
+input:-webkit-autofill{
+  background-color: red;
+}
+input:focus {
+  outline-width: 0;
+}
+input::placeholder { 
+  color: white;
+}
+input:-internal-autofill-selected {
+  background-color: red!important;
+}
+
 span,
 h3,
 h2,
 p {
   cursor: default;
 }
+
 // defult classes
 .flex {
   display: flex;

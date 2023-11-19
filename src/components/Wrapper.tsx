@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Wrapper = ({children}) => {
+const Wrapper: React.FC = ({children}) => {
   return (
     <div className='wrapper'>
         {children}

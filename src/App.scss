@@ -7,30 +7,39 @@
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  padding-top: 20vh;
+  display: flex;
+  align-items: center;
 }
 
 /* form */
 .formWrapper {
   border: 2px solid rgba(251, 251, 251, 0.142);
-  width: 40%;
+  width: 45%;
   margin: 0 auto;
-  padding: 4% 3%;
+  padding: 5% 4%;
   backdrop-filter: blur(15px);
   border-radius: 13px;
 
-  h2{
+  h2 {
     margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 600;
   }
-
+  p,
+  span,
+  input {
+    font-size: 18px;
+  }
+  button {
+    font-size: 21px;
+    font-weight: 600;
+    color: black;
+    margin: 20px 0 25px;
+  }
   input {
     border: 2px solid rgba(251, 251, 251, 0.142);
     background-color: inherit;
     color: white;
     margin-bottom: 35px;
-  }
-  button {
-    color: black;
-    margin: 20px 0 25px;
   }
 }

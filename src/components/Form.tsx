@@ -53,6 +53,7 @@ const Form: React.FC = () => {
             value={formData.email}
             onChange={handleChange}
             placeholder="E-mail"
+            autoComplete="off"
             required
           />
         </div>
@@ -63,6 +64,7 @@ const Form: React.FC = () => {
             value={formData.password}
             onChange={handleChange}
             placeholder="Password"
+            autoComplete="off"
             required
           />
         </div>
